@@ -1,0 +1,170 @@
+/* Links inside the navbar */
+/* Change background on mouse-over */
+.navbar {
+  overflow:fixed;
+  background-color: #0A090C;
+  position:relative;
+  top: 2px;
+  width: 50;
+  padding-top: 1px;
+  z-index: 20px;
+}
+.navbar a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 
+
+  
+}
+
+p{font-size: 15px}
+
+#subhead {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 0rem;
+  padding: 0rem;
+  text-align:justify;;
+}
+
+
+
+section{
+  position:relative
+
+}
+
+body {
+  background-color: #F0EDEE;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+  }
+
+.change{ 
+   margin: 250px;
+  }
+
+#totalaccident {
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+
+
+.static-content {
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  padding: 1rem;
+  text-align:inherit;
+  font-size: 18px;
+}
+
+#author {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 4rem;
+  padding: 4rem;
+}
+
+h2, h3, h4 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+section {
+  margin-top: 0;
+  padding: 0px;
+
+}
+
+article {
+  padding: 0 1rem;
+  margin: 0 auto;
+  margin-top: -1rem;
+  max-width: 40rem;
+}
+article p {
+  font-family: Georgia;
+  font-size: 2rem;
+  line-height: 1;
+  min-height: 25vh;
+  text-align: center;
+}
+article p:not(:last-of-type) {
+  margin: 0 0;
+}
+
+
+
+figure {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 100vh;
+  margin: 0 0 1rem;
+  width: 100%;
+  justify-content: center;
+  top: 0;
+  z-index: -1;
+}
+@media screen and (min-width: 35rem) {
+  figure {
+    position: sticky;
+  }
+}
+
+.map {
+  align-content: center;
+}
+
+#wordcloud {
+  align-items: center;
+  display: static;
+  height: 90vh;
+  margin: 0;
+  width: 120%;
+  justify-content: center;
+  top: 0;
+  z-index: -1;
+}
+
+.map2 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  top: 0;
+  z-index: -1;
+}
+
+#bikecount {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  top: 0;
+  z-index: -1;
+}
+
+bottom {
+  position: fixed;
+  display: inline-block;
+}
+
+#footer {
+  font-size: 14px;
+  text-align: inherit;
+}
